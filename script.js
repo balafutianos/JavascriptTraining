@@ -77,4 +77,59 @@
 // }
 
 
+// 1. Write a for loop to print the following pattern:
+// *
+// **
+// ***
+// ****
+// *****
+// 2. Modify your code to accept user input (e.g., number of rows) and generate the pattern.
 
+// star = "";
+// for(let i=1; i<=5; i++){
+//     prompt("Enter #: " );
+// star = star + "*";
+// console.log(star);
+// }
+
+// const cart=[
+//     "apple",
+//     "banana",
+//     "orange",
+//     "grape",
+//     "mango"
+// ]
+
+// for(let i=1; i<=5; i++){
+//     if (cart["orange"] = true){
+//         console.log("Found orange in the cart!");
+//     }
+// }
+
+// Sum of Numbers
+
+// total = 0;
+// for(let i=1; i<=2; i++){
+//     let num = Number(prompt("Enter a number: "));
+//     total += num; // total = total + i
+//     console.log("Current total: " + total); 
+// }
+
+const items = [
+    {name:"iphone", price:999, quantity:2},
+    {name:"samsung", price:899, quantity:3},
+    {name:"iphone pro", price:799, quantity:5},
+    {name:"iovo pro", price:799, quantity:5},
+    {name:"ier", price:799, quantity:5},
+    {name:"oneplus", price:699, quantity:4}
+];
+
+// Ask user for input
+const searchTerm = prompt("Enter the product name to search for:");
+
+// Loop through items and check if name starts with input
+for (let i = 0; i < items.length; i++) {
+    if (items[i].name.toLowerCase().startsWith(searchTerm.toLowerCase())) {
+        console.log(items[i].name);
+    }
+}
