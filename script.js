@@ -25,11 +25,36 @@
 
 // document.getElementById("content").innerText = +result;
 
-let name = "Tasos";
-let CountriestoVisit = ["Andorra", "Iceland", "Hungary", "Latvia","Estonia","Lithuania","Portugal","Slovenia"];
+// let name = "Tasos";
+// let CountriestoVisit = ["Andorra", "Iceland", "Hungary", "Latvia","Estonia","Lithuania","Portugal","Slovenia"];
 
-for (let i = 0; i < CountriestoVisit.length; i++) {
-    console.log(CountriestoVisit[i]);
+// for (let i = 0; i < CountriestoVisit.length; i++) {
+//     console.log(CountriestoVisit[i]);
+// }
+// document.getElementById("content").innerText =CountriestoVisit[Math.floor(Math.random() * CountriestoVisit.length)];
+
+
+
+// 17/12/2025
+// Exercise 1: Simple Nested Loops
+
+// for (let i = 1; i <= 10; i++) {
+//     for (let j = 1; j <= 3; j++) {
+//         console.log("i is: " + i + ", j is: " + j);
+//     }
+// }
+
+
+// // Iterating Over Arrays
+
+// let animals = ["Dog", "Cat", "Elephant", "Parrot", "Tiger"];
+
+// for (let i = 0; i < animals.length; i++) {
+//     console.log("Animal at index " + i + ": " + animals[i]);
+// }
+
+//Reverse Iteration
+
+for (let i = animals.length - 1; i >= 0; i--) {
+    console.log("Animal at index " + i + ": " + animals[i]);
 }
-document.getElementById("content").innerText =CountriestoVisit[Math.floor(Math.random() * CountriestoVisit.length)];
-
